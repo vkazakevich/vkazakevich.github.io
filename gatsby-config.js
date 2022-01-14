@@ -2,6 +2,8 @@ module.exports = {
   siteMetadata: {
     siteUrl: 'https://vkazakevich.github.io',
     title: 'Vitaliy Kazakevich – Software Developer',
+    description: 'Vitaliy Kazakevich – Software Developer',
+    twitterUsername: "@vkazakevich_",
   },
   plugins: [
     'gatsby-plugin-postcss',
@@ -31,5 +33,6 @@ module.exports = {
       },
       __key: 'images',
     },
+    'gatsby-plugin-react-helmet'
   ],
 }

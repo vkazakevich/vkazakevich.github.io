@@ -2,6 +2,7 @@ import * as React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 
 import Layout from '../components/layout'
+import SEO from '../components/seo'
 
 import GithubIcon from '../images/svg/github.inline.svg'
 import LinkedInIcon from '../images/svg/linkedin.inline.svg'
@@ -18,6 +19,7 @@ const LINKS = [
 export default function IndexPage () {
   return (
     <Layout>
+      <SEO/>
       <div className="flex justify-between text-xl">
         <div>
           <h1 className="text-5xl font-bold text-white">
