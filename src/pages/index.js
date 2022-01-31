@@ -41,7 +41,7 @@ export default function IndexPage () {
               <a
                 key={url}
                 href={url}
-                className="inline-flex items-center justify-center p-2 bg-blue-500 rounded-md shadow-lg text-white hover:text-indigo-200 mr-4"
+                className="inline-flex items-center justify-center p-2 bg-indigo-500 rounded-md shadow-lg text-white hover:text-indigo-200 mr-4"
                 rel="noreferrer"
                 target={isEmail ? '' : '_blank'}
               >
@@ -55,7 +55,7 @@ export default function IndexPage () {
           src="../images/me.jpg"
           alt="A dinosaur"
           placeholder="#ffffff"
-          className="bg-blue-500 rounded-full max-w-md"
+          className="bg-indigo-600 rounded-full max-w-md"
         />
       </div>
     </Layout>
